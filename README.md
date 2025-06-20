@@ -1,10 +1,8 @@
-# 💬 Intent Classifier Chatbot
+# Intent Classifier Chatbot
 
 A simple intent-based chatbot built with Python, NLTK, and TensorFlow. It uses a neural network to classify user input based on predefined categories (intents) and responds accordingly.
 
----
-
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates how natural language processing (NLP) and machine learning can work together to build a basic conversational agent. The chatbot:
 - Processes user input using tokenization and stemming
@@ -12,9 +10,7 @@ This project demonstrates how natural language processing (NLP) and machine lear
 - Uses a neural network to classify input into one of the known intents
 - Responds with a predefined message for that intent
 
----
-
-## 🧠 How It Works
+## How It Works
 
 1. **Data Source**: The `intents.json` file contains different user intents with:
    - Tags (e.g., greeting, goodbye)
@@ -34,9 +30,7 @@ This project demonstrates how natural language processing (NLP) and machine lear
    - If confidence > 70%, a random response for that tag is shown
    - Otherwise, a fallback message is used
 
----
-
-## 🛠️ Installation
+## Installation
 
 ### Clone the repository
 ```bash
